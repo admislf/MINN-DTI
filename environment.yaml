@@ -1,0 +1,30 @@
+name: MINN
+channels:
+  - pytorch
+  - dglteam
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.0.3=h15472ef_8
+  - cudnn=8.1.0.77=h90431f1_0
+  - dgl-cuda11.0=0.6.0post1=py37_0
+  - dgllife=0.2.6=py37_0
+  - joblib=1.0.1=pyhd3eb1b0_0
+  - numba=0.53.1=py37ha9443f7_0
+  - numpy=1.19.2=py37h54aff64_0
+  - pandas=1.2.3=py37ha9443f7_0
+  - python=3.7.10=hdb3f193_0
+  - python-dateutil=2.8.1=pyhd3eb1b0_0
+  - python_abi=3.7=1_cp37m
+  - pytorch=1.7.1=py3.7_cuda11.0.221_cudnn8.0.5_0
+  - rdkit=2021.03.1=py37haf5a968_0
+  - scikit-learn=0.24.1=py37ha9443f7_0
+  - scipy=1.6.2=py37h91f5cce_0
+  - torchaudio=0.7.2=py37
+  - tornado=6.1=py37h27cfd23_0
+  - tqdm=4.59.0=pyhd3eb1b0_1
+  - pip:
+    - biopython==1.78
+    - pypdb==2.0
+    - tensorboardx==2.2
+    - torchvision==0.7.0
